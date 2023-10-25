@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Build a webpage using Bootstrap5</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+  
+  </head>
+  <body>
+    
+<!--Navbar-->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="/pix/bootstrap-logo.svg " alt="logo" width="80px" height="80px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-disabled="true"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+<!--Carousel-->
+
+<div id="carouselExampleIndicators" class="carousel slide m-5 ">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/pix/cars/BMW moto.jpg" class="d-block w-100" alt="moto">
+      </div>
+      <div class="carousel-item">
+        <img src="/pix/cars/FIRST CLASS HUMMER.jpg" class="d-block w-100" alt="car">
+      </div>
+      <div class="carousel-item">
+        <img src="/pix/cars/CADILLAC.JPG" class="d-block w-100" alt="moto">
+      </div>
+      <div class="carousel-item">
+        <img src="/pix/cars/cadillac_cien.jpg" class="d-block w-100" alt="car">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!--Main Container-->
+  <div class="container">
+    <h1 class="text-center p-5 mb-5 mt-5">Buy Your Ride Today!</h1>
+    <div class="w-100 bg-dark-subtle p-5 mb-5">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda odio nesciunt laboriosam
+           necessitatibus temporibus dolores beatae! Est, in sed fuga minima quos beatae libero harum 
+           odio. Quam aspernatur blanditiis saepe expedita neque! Maiores ab recusandae minima eaque natus
+            sint velit ex quam error odit? Itaque hic dolor et sunt pariatur obcaecati quas, vel perspiciatis!
+             Aperiam temporibus deserunt facilis ad aliquid, delectus fuga at praesentium eaque cum magni ab omnis 
+             alias illo culpa labore, velit quae vitae libero laudantium qui recusandae repellendus excepturi. Aut
+              maxime porro saepe consequatur. Sint, aut laudantium sequi ipsa obcaecati ratione harum, maiores vitae 
+              eos, voluptatum illo.
+        </p>
+        <button type="button" class="btn btn-primary btn-lg">Buy Your Car Now!!</button>
+    </div >
+    <h2 id="popular-cars" class="fs-1 p-5 mt-5 text-center">POPULAR CARS</h2>
+    <div class="row">
+        <div class="col d-flex " >
+            <!--card 1-->
+            <div class="card" style="width: 18rem;">
+                <img src="/pix/cars/BMW moto.jpg" class="card-img-top" alt="BMW">
+                <div class="card-body">
+                  <h5 class="card-title">BMW $5000</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur iure qui commodi, possimus quia fuga quam natus ipsa dicta voluptatibus, odio cumque delectus quaerat sequi sed maiores, sint hic id.</p>
+                  <a href="#" class="btn btn-primary">BUY NOW</a>
+                </div>
+              </div>
+            <!--card 2-->
+            <div class="card" style="width: 18rem;">
+                <img src="/pix/cars/Hummer 2.jpg" class="card-img-top" alt="HUMMER">
+                <div class="card-body">
+                  <h5 class="card-title">HUMMER-SV $15000</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur iure qui commodi, possimus quia fuga quam natus ipsa dicta voluptatibus, odio cumque delectus quaerat sequi sed maiores, sint hic id.</p>
+                  <a href="#" class="btn btn-primary">BUY NOW</a>
+                </div>
+              </div>
+            <!--card 3-->
+            <div class="card" style="width: 18rem;">
+                <img src="/pix/cars/FIRST CLASS HUMMER.jpg" class="card-img-top" alt="BMW" ">
+                <div class="card-body">
+                  <h5 class="card-title">SVG-HUMMER $6500</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur iure qui commodi, possimus quia fuga quam natus ipsa dicta voluptatibus, odio cumque delectus quaerat sequi sed maiores, sint hic id.</p>
+                  <a href="#" class="btn btn-primary">BUY NOW</a>
+                </div>
+              </div>
+        </div>
+    </div>
+    <!--About-->
+    <h1 class="text-center p-5 mb-5 mt-5" id="about">About</h1>
+    <div class="row">
+        <div class="col" >
+            <div class="bg-secondary text-white mt-5 p-5 mb-5">
+                <h2>Rates</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit maxime obcaecati eius? Mollitia explicabo blanditiis suscipit doloribus temporibus nesciunt aliquam dolor reiciendis impedit sint quas dolores, quis in neque cumque, aut eaque laborum maiores amet necessitatibus iste nam, deserunt a. Aliquid illo, consectetur saepe est sit repellendus repellat excepturi mollitia.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col" >
+            <div class="bg-dark-subtle text-dark mt-5 p-5 mb-5">
+                <h2>Fees</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit maxime obcaecati eius? Mollitia explicabo blanditiis suscipit doloribus temporibus nesciunt aliquam dolor reiciendis impedit sint quas dolores, quis in neque cumque, aut eaque laborum maiores amet necessitatibus iste nam, deserunt a. Aliquid illo, consectetur saepe est sit repellendus repellat excepturi mollitia.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col" >
+            <div class="bg-secondary text-white mt-5 p-5 mb-5">
+                <h2>Popular Sites</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit maxime obcaecati eius? Mollitia explicabo blanditiis suscipit doloribus temporibus nesciunt aliquam dolor reiciendis impedit sint quas dolores, quis in neque cumque, aut eaque laborum maiores amet necessitatibus iste nam, deserunt a. Aliquid illo, consectetur saepe est sit repellendus repellat excepturi mollitia.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col" >
+            <div class="bg-dark-subtle text-dark mt-5 p-5 mb-5" id="features">
+                <h2>Features</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit maxime obcaecati eius? Mollitia explicabo blanditiis suscipit doloribus temporibus nesciunt aliquam dolor reiciendis impedit sint quas dolores, quis in neque cumque, aut eaque laborum maiores amet necessitatibus iste nam, deserunt a. Aliquid illo, consectetur saepe est sit repellendus repellat excepturi mollitia.</p>
+            </div>
+        </div>
+    </div>
+    <!--Contact Us-->
+    <h1 class="text-center p-5 mb-5 mt-5" id="contact">Contact Us</h1>
+    <div class="w-100 bg-dark-subtle p-5 mb-5">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda odio nesciunt laboriosam
+         necessitatibus temporibus dolores beatae! Est, in sed fuga minima quos beatae libero harum 
+         odio. Quam aspernatur blanditiis saepe expedita neque! Maiores ab recusandae minima eaque natus
+          sint velit ex quam error odit? Itaque hic dolor et sunt pariatur obcaecati quas, vel perspiciatis!
+           Aperiam temporibus deserunt facilis ad aliquid, delectus fuga at praesentium eaque cum magni ab omnis 
+           alias illo culpa labore, velit quae vitae libero laudantium qui recusandae repellendus excepturi. Aut
+            maxime porro saepe consequatur. Sint, aut laudantium sequi ipsa obcaecati ratione harum, maiores vitae 
+            eos, voluptatum illo.
+      </p>
+      <button type="button" class="btn btn-primary btn-lg"><a href="mailto: abc@gmail.com" class="text-white text-decoration-none">Email Us Here</a></button>
+  </div>
+  <h1 class="text-center p-5 mb-5 mt-5">MORE CARS</h1>
+  <img src="/pix/cars/FIRST CLASS HUMMER.jpg" alt="Dream" class="w-100 mb-5">
+ 
+
+</div>
+  <!--End of Container-->
+  <footer class="bg-dark mb-5 mt-5 text-center">
+    <p>$copy; Buy Your Car</p>
+    <p><a href="mailto: abc@gmail.com " class="fs-2 text-decoration-none text-white ">Email Us</a></p>
+  </footer>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
